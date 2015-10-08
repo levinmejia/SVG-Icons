@@ -1,0 +1,150 @@
+/*------------------------------------*\
+    RESET
+\*------------------------------------*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+    v2.0b1 | 201101 
+    NOTE:WORK IN PROGRESS
+    USE WITH CAUTION AND TEST WITH ABANDON */
+
+html,body,div,span,applet,object,iframe,
+h1,h2,h3,h4,h5,h6,p,blockquote,pre,
+a,abbr,acronym,address,big,cite,code,
+del,dfn,em,img,ins,kbd,q,s,samp,
+small,strike,strong,sub,sup,tt,var,
+b,u,i,center,
+dl,dt,dd,ol,ul,li,
+fieldset,form,label,legend,
+table,caption,tbody,tfoot,thead,tr,th,td,
+article,aside,canvas,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section,summary,
+time,mark,audio,video{
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    font:inherit;
+    vertical-align:baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section{
+    display:block;
+}
+body{
+    line-height:1;
+}
+ol,ul{
+    list-style:none;
+}
+blockquote,q{
+    quotes:none;
+}
+blockquote:before,blockquote:after,
+q:before,q:after{
+    content:’’;
+    content:none;
+}
+/* remember to define visible focus styles! 
+:focus{
+    outline:?????;
+} */
+
+/* remember to highlight inserts somehow! */
+ins{
+    text-decoration:none;
+}
+del{
+    text-decoration:line-through;
+}
+
+table{
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/*------------------------------------*\
+    $MAIN
+\*------------------------------------*/
+
+body {
+	display: block;
+	margin: 0 auto;
+	padding: 30px;
+	width: 90%;
+	max-width: 800px;
+	font-family: 'Helvetica Neue', 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+}
+
+header {
+	padding-bottom: 20px;
+	border-bottom: 1px solid #eee;
+}
+
+h1 {
+	font-size: 24px;
+	font-weight: 300;
+	text-align: center;
+}
+
+h2 {
+	margin-bottom: 20px;
+	font-weight: 600;
+}
+
+section {
+	padding: 30px 0;
+	min-height: 300px;
+	border-bottom: 1px solid #eee;
+}
+
+.shopify {
+	display: block;
+	margin: 20px auto;
+	width: 30px;
+}
+
+.hr {
+	display: block;
+	margin: 30px 0 20px 0;
+	width: 100%;
+	border-bottom: 1px solid #EEE;
+}
+
+
+/* Icons */
+
+/*Facebook icon by Icons8 */
+.icons8-Facebook-green { /* Customizes Facebook icon */
+	margin-left: 30px;
+  fill: #96BE4F;
+  width: 27px;
+  height: 26px;
+}
+.icon { /* Customizes all icons at once */
+  display: inline-block;
+}
+
+
+#my-svg {
+	width: 40px;
+	height: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* HTML5/CSS Templates by http://csswizardry.com/2011/01/the-real-html5-boilerplate/ */
